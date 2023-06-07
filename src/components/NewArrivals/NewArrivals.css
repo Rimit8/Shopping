@@ -1,0 +1,27 @@
+.padd{
+    padding-top: 3.5rem;
+}
+
+.new-arr{
+font-weight: 900;
+font-size: 48px;
+letter-spacing: 0.06em;
+}
+
+.girls{
+
+    border-radius: 20px;
+}
+.girlone{
+    color: #191919;
+    font-style: normal;
+font-weight: 600;
+font-size: 22px;
+}
+
+.girltwo{
+    color: #7F7F7F;
+ font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}

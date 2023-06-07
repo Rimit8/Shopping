@@ -1,0 +1,30 @@
+.padd{
+    padding-top: 3.5rem;
+}
+.ban2{
+    position: relative;
+}
+.textylw{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.payday{
+    background: #fff;
+    transform: matrix(1, -0.03, 0.03, 1, 0, 0);
+}
+.para-txt{
+    font-weight: 500;
+    font-size: 26.0402px;
+}
+.date-txt{
+    font-weight: 800;
+font-size: 26.0402px;
+}
+.shp-btn2{
+    border-radius: 8.13811px;
+    width: 165.62px;
+    height: 65.33px;
+    font-size: 20px;
+}
