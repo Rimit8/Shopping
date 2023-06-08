@@ -11,30 +11,29 @@ const NewArrivals = () => {
         <div className="row">
           <div className="col-lg-12">
             <p>
-              <div className="text-start">
+              <div className="text-start ">
                 <h1 className=" new-arr">NEW ARRIVALS</h1>
               </div>
             </p>
           </div>
-          <div className="row padd">
-            <div className="col-lg-12 d-flex px-0">
+
               <div className="col-lg-4 px-4">
                 <img src={girl1} alt="girl1" className="girls img-fluid" />
-                <div className="text-start">
+                <div className="text-start newarrival">
                   <h5 className="girlone pt-4">Hoodies and Sweetshirt</h5>
                   <p className="girltwo">Explore Now!</p>
                 </div>
               </div>
               <div className="col-lg-4 px-4">
                 <img src={girl2} alt="girl1" className="girls img-fluid" />
-                <div className="text-start">
+                <div className="text-start newarrival">
                   <h5 className="girlone  pt-4">Hoodies and Sweetshirt</h5>
                   <p className="girltwo">Explore Now!</p>
                 </div>
               </div>
               <div className="col-lg-4 px-4">
                 <img src={girl3} alt="girl1" className="girls img-fluid" />
-                <div className="text-start">
+                <div className="text-start newarrival">
                   <h5 className="girlone  pt-4">Hoodies and Sweetshirt</h5>
                   <p className="girltwo">Explore Now!</p>
                 </div>
@@ -42,8 +41,7 @@ const NewArrivals = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+
   );
 };
 

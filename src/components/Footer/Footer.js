@@ -6,15 +6,15 @@ const Footer = () => {
     <div>
       <section className="footers bg-dark text-white pt-3 pb-5">
         <div className="container pt-5">
-          <div className="row">
+          <div className="row footer-sec">
             <div className="col-xs-12 col-sm-6 col-md-4 footers-one">
-              <div className="footers-logo text-start">
+              <div className="footers-logo ">
                 <h1 className="footers-logo2">FASHION</h1>
               </div>
-              <div className="footers-info pt-3 text-start">
+              <div className="footers-info pt-3 ">
                 <p>Complete your style with awesome<br/> clothes from us.</p>
               </div>
-              <div className="social-icons text-start pt-3">
+              <div className="social-icons  pt-3">
                 <a href="https://www.facebook.com/" className="px-2">
                   <i
                     id="social-fb"

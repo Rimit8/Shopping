@@ -9,10 +9,11 @@ import amazon from '../../assets/amazon.svg'
 
 const YellowBanner = () => {
   return (
-    <div className='padd'>
+<>
+<div className='padd'>
       <div className='brands'>
         <div className='align-items-center pt-5 pb-4'>
-            <div className='col-lg-12 d-flex'>
+            <div className='col-lg-12 d-flex amazon'>
                 <div className='col-lg-2 blend'>
                 <img src={hm} alt='hm' className='img-fluid'/>
                 </div>
@@ -35,6 +36,7 @@ const YellowBanner = () => {
         </div>
       </div>
     </div>
+</>
   )
 }
 

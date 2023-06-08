@@ -14,3 +14,565 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media screen and (max-width:319px){
+  .girl1banner{
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width:480px){
+  .girl1banner{
+    display: none;
+  }
+  .lets-txt{
+    width: 275px !important;
+  }
+  .unique-txt{
+    width: 275px !important;
+  }
+  .banner-text {
+    font-weight: 600 !important;
+    font-size: 3rem !important;
+  }
+  .live-txt{
+    font-size: 14px !important;
+    padding-top: 1rem !important;
+  }
+  .shp-btn{
+    width: 85px !important;
+    height: 40px !important;
+    font-size: 10px !important;
+  }
+  .leaff{
+    height: 20px !important;
+  }
+  .ylwbtn{
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .banner2 {
+    position: relative !important;
+    color: black;
+}
+.newarrival{
+  text-align: center !important;
+}
+.new-arr{
+  font-size: 40px !important;
+  text-align: center;
+}
+  .shp-btn2{
+    width: 65px !important;
+    height: 20px !important;
+    font-size: 6px !important;
+  }
+  .textylw{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right:80px !important;
+    padding-top: 10px !important;
+  
+  }
+  .banner2-text {
+    font-weight: 650 !important;
+    font-size: 1rem !important;
+  }
+  .date-txt{
+    font-size: 0.5rem !important;
+    padding-top: 0 !important;
+  }
+  .para-txt{
+    font-size: 6px !important;
+    padding-top: 0.5rem !important;
+  }
+  .join{
+    font-size: 20px !important;
+  }
+    .etext{
+  font-size: 15px !important;
+  }
+  .searchbox-wrap input {
+    flex: 1 1;
+    padding: 15px 10px !important;
+    font-size: 1.1em;
+    box-shadow: none;
+    border: none;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+.searchbox-wrap button span {
+  margin-left: 0px !important;
+  padding: 10px 15px !important;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+
+.searchbox-wrap button {
+  padding-right: 3px !important;
+  background-color: #fff;
+  box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
+  border: none;
+  cursor: pointer;
+  cursor: hand;
+}
+.searchbox-wrap {
+  display: flex;
+  width: 370px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footers.footers-three {
+  padding-top: 30px !important;
+}
+.footers.footers-four {
+  padding-top: 30px !important;
+}
+.footers.footer-sec{
+  flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footers-one{
+  text-align: center !important;
+}
+
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width:600px){
+  .girl1banner{
+    display: none;
+  }
+  .lets-txt{
+    width: 300px !important;
+  }
+  .unique-txt{
+    width: 300px !important;
+  }
+  .banner-text {
+    font-weight: 700 !important;
+    font-size: 4rem !important;
+  }
+  .live-txt{
+    font-size: 16px !important;
+    padding-top: 1rem !important;
+  }
+  .shp-btn{
+    width: 90px !important;
+    height: 45px !important;
+    font-size: 12px !important;
+  }
+  .leaff{
+    height: 25px !important;
+  }
+  .ylwbtn{
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .banner2 {
+    position: relative !important;
+    color: black;
+}
+.newarrival{
+  text-align: center !important;
+}
+.new-arr{
+  font-size: 40px !important;
+  text-align: center;
+}
+.shp-btn2{
+  width: 70px !important;
+  height: 25px !important;
+  font-size: 8px !important;
+}
+.textylw{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right:80px !important;
+  padding-top: 10px !important;
+
+}
+.banner2-text {
+  font-weight: 650 !important;
+  font-size: 1.25rem !important;
+}
+.date-txt{
+  font-size: 0.75rem !important;
+}
+.para-txt{
+  font-size: 8px !important;
+  padding-top: 0.5rem !important;
+}
+.join{
+  font-size: 25px !important;
+}
+  .etext{
+font-size: 17px !important;
+}
+.searchbox-wrap {
+  width: 400px !important;
+  padding-right: 200px !important;
+}
+
+.searchbox-wrap input {
+  flex: 1 1;
+  padding: 15px 10px !important;
+  font-size: 1.1em;
+  box-shadow: none;
+  border: none;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+.searchbox-wrap button span {
+margin-left: 0px !important;
+padding: 10px 15px !important;
+font-size: 0.9em;
+text-transform: uppercase;
+font-weight: 300;
+color: #fff;
+background-color: black;
+border-radius: 8px;
+box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+
+.searchbox-wrap button {
+padding-right: 3px !important;
+background-color: #fff;
+box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
+border: none;
+cursor: pointer;
+cursor: hand;
+}
+.searchbox-wrap {
+  display: flex;
+  width: 370px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footers .footers-three {
+  padding-top: 30px !important;
+}
+.footers .footers-four {
+  padding-top: 30px !important;
+}
+.footers.footer-sec{
+  flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footers-one{
+  text-align: center !important;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 600px) and (max-width:768px){
+  .lets-txt{
+    width: 175px !important;
+  }
+  .unique-txt{
+    width: 175px !important;
+  }
+  .banner-text {
+    font-weight: 550 !important;
+    font-size: 1.5rem !important;
+  }
+  .live-txt{
+    font-size: 8px !important;
+    padding-top: 0.5rem !important;
+  }
+  .shp-btn{
+    width: 70px !important;
+    height: 25px !important;
+    font-size: 8px !important;
+  }
+  .leaff{
+    height: 15px !important;
+  }
+  .newarrival{
+    text-align: center !important;
+  }
+  .new-arr{
+    font-size: 40px !important;
+  }
+  .shp-btn2{
+    width: 80px !important;
+    height: 18px !important;
+    font-size: 8px !important;
+  }
+  .textylw{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right:130px !important;
+    padding-top: 20px !important;
+  
+  }
+  .banner2-text {
+    font-weight: 650 !important;
+    font-size: 2rem !important;
+  }
+  .date-txt{
+    font-size: 1rem !important;
+  }
+  .para-txt{
+    font-size: 10px !important;
+    padding-top: 0.5rem !important;
+  }
+  .new-arr{
+    text-align: center;
+    }
+    .join{
+      font-size: 35px !important;
+    }
+      .etext{
+    font-size: 20px !important;
+    }
+    .searchbox-wrap {
+      width: 375px !important;
+    }
+    .footers .footers-three {
+      padding-top: 30px !important;
+    }
+    .footers .footers-four {
+      padding-top: 30px !important;
+    }
+    .footer-sec{
+      flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .footers.footer-sec{
+      flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .footers-one{
+      text-align: center !important;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:990px){
+.lets-txt{
+  width: 250px !important;
+}
+.unique-txt{
+  width: 250px !important;
+}
+.banner-text {
+  font-weight: 600 !important;
+  font-size: 2rem !important;
+}
+.new-arr{
+text-align: center;
+}
+.live-txt{
+  font-size: 12px !important;
+  padding-top: 1rem !important;
+}
+.shp-btn{
+  width: 80px !important;
+  height: 35px !important;
+  font-size: 10px !important;
+}
+.leaff{
+  height: 20px !important;
+}
+.newarrival{
+  text-align: center !important;
+}
+.new-arr{
+  font-size: 40px !important;
+}
+.new-arr2{
+  font-size: 40px !important;
+  text-align: center;
+}
+.down-txt{
+  font-size: 30px !important;
+}
+.shp-btn2{
+  width: 100px !important;
+  height: 30px !important;
+  font-size: 12px !important;
+}
+.textylw{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right:150px !important;
+  padding-top: 30px !important;
+
+}
+.banner2-text {
+font-weight: 650 !important;
+font-size: 2rem !important;
+}
+.para-txt{
+font-size: 12px !important;
+padding-top: 1rem !important;
+}
+.down-txt{
+  text-align: center;
+}
+.phone{
+  padding-left: 150px !important;
+}
+.join{
+  font-size: 45px !important;
+}
+  .etext{
+font-size: 18px !important;
+}
+.searchbox-wrap {
+  width: 400px !important;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 990px) and (max-width:1024px) {
+  .lets-txt{
+    width: 350px !important;
+  }
+  .unique-txt{
+    width: 350px !important;
+  }
+  .banner-text {
+    font-weight: 700 !important;
+    font-size: 3rem !important;
+  }
+  .live-txt{
+    font-size: 14px !important;
+    padding-top: 1rem !important;
+  }
+ .shp-btn{
+    width: 100px !important;
+    height: 55px !important;
+  }
+  .shp-btn2{
+    width: 120px !important;
+    height: 40px !important;
+    font-size: 18px !important;
+  }
+  .textylw{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right:150px !important;
+    padding-top: 60px !important;
+  
+}
+.banner2-text {
+  font-weight: 700 !important;
+  font-size: 3rem !important;
+}
+.para-txt{
+  font-size: 14px !important;
+  padding-top: 1rem !important;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width:1200px){
+  .shp-btn{
+    width: 110px !important;
+    height: 40px !important;
+  }
+  .lets-txt{
+    width: 375px !important;
+  }
+  .unique-txt{
+    width: 375px !important;
+  }
+  .banner-text {
+    font-weight: 700 !important;
+    font-size: 3.5rem !important;
+  }
+  .live-txt{
+    font-size: 15px !important;
+    padding-top: 1rem !important;
+  }
+  .shp-btn2{
+    width: 120px !important;
+    height: 40px !important;
+    font-size: 18px !important;
+  }
+  .textylw{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 140px;
+    padding-top: 60px !important;
+  
+}
+.banner2-text {
+  font-weight: 700 !important;
+  font-size: 3.5rem !important;
+}
+.para-txt{
+  font-size: 15px !important;
+  padding-top: 1rem !important;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width:1400px){
+  .ylwbtn{
+    padding-top: 2rem !important;
+  }
+  .lets-txt{
+    width: 400px !important;
+  }
+  .unique-txt{
+    width: 400px !important;
+  }
+  .banner-text {
+    font-weight: 800 !important;
+    font-size: 4rem !important;
+  }
+  .live-txt{
+    font-size: 15px !important;
+    padding-top: 2rem !important;
+  }
+  .shp-btn2{
+    width: 120px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+  }
+  .textylw{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 140px;
+    padding-top: 60px !important;
+    
+}
+.banner2-text{
+  font-weight: 800 !important;
+  font-size: 4rem !important;
+}
+}

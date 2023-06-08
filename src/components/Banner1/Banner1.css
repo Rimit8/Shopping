@@ -9,7 +9,7 @@
 }
 .banner-text{
     font-weight: 900;
-font-size: 80px;
+font-size: 5rem;
 }
 .unique-txt{
 background: #EBD96B;
@@ -25,3 +25,4 @@ transform: rotate(-2deg);
     width: 121px;
 height: 50px;
 }
+

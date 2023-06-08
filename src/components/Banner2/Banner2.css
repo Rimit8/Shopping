@@ -8,9 +8,15 @@
     position: absolute;
     right: 0;
     top: 0;
+    padding-right: 140px;
+    padding-top: 100px;
 }
-
+.banner2-text{
+    font-weight: 900 ;
+font-size: 5rem ;
+}
 .payday{
+
     background: #fff;
     transform: matrix(1, -0.03, 0.03, 1, 0, 0);
 }
@@ -21,6 +27,7 @@
 .date-txt{
     font-weight: 800;
 font-size: 26.0402px;
+padding-top: 30px;
 }
 .shp-btn2{
     border-radius: 8.13811px;

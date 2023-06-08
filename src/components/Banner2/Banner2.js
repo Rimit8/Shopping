@@ -7,20 +7,20 @@ const Banner2 = () => {
     <div className="padd">
       <div className="ban2">
         <img src={banner2} alt="baa" className="img-fluid" />
-        <div className="textylw px-5 pt-5 mx-5 mt-5 text-start">
-          <h1 className="banner-text payday">PAYDAY</h1>
-          <h1 className="banner-text">SALE NOW</h1>
+        <div className="textylw  text-start">
+          <h1 className="banner2-text payday">PAYDAY</h1>
+          <h1 className="banner2-text">SALE NOW</h1>
           <p className="text-start para-txt pt-5">Spend minimal $100 get 30% off<br/>
 voucher code for your next purchase</p>
 
-        <h1 className="date-txt text-start pt-5">
+        <h1 className="date-txt text-start ">
         1 June - 10 June 2021
 
         </h1>
         <p className="text-start para-txt">
         *Terms & Conditions apply
         </p>
-        <button type="button" className="btn btn-dark shp-btn mt-4 shp-btn2">Shop Now</button>
+        <button type="button" className="btn btn-dark shp-btn shp-btn2">Shop Now</button>
         </div>
       </div>
     </div>

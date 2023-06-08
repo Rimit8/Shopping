@@ -15,13 +15,13 @@ function App() {
     <div className="App">
       <Navbar/>
       <Banner1/>
-      <YellowBanner/>
-      <NewArrivals/>
-      <Banner2/>
-      <Young/>
-      <Mobile/>
-      <Email/>
-      <Footer/>
+       <YellowBanner/>
+<NewArrivals/>
+ <Banner2/>
+               <Young/>
+  <Mobile/>
+          <Email/>
+       <Footer/>
     </div>
   );
 }
