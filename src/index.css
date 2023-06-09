@@ -23,6 +23,10 @@ code {
   .girl1banner{
     display: none;
   }
+  .blend-img{
+    width: 117px !important;
+    height: 117px !important;
+  }
   .lets-txt{
     width: 275px !important;
   }
@@ -30,29 +34,37 @@ code {
     width: 275px !important;
   }
   .banner-text {
-    font-weight: 600 !important;
-    font-size: 3rem !important;
+    font-weight: 550 !important;
+    font-size: 2.5rem !important;
   }
   .live-txt{
-    font-size: 14px !important;
+    font-size: 12px !important;
     padding-top: 1rem !important;
   }
   .shp-btn{
-    width: 85px !important;
-    height: 40px !important;
+    width: 78px !important;
+    height: 30px !important;
     font-size: 10px !important;
+    margin-left: 20px !important;
   }
   .leaff{
-    height: 20px !important;
+    height: 15px !important;
   }
   .ylwbtn{
     padding-top: 1rem;
     padding-left: 1rem;
   }
   .banner2 {
-    position: relative !important;
-    color: black;
-}
+    top: 0 !important;
+    left: 0 !important;
+     color: black;
+     display: flex !important;
+     flex-direction: column !important;
+     justify-content: center !important;
+     align-items: center !important;
+     position: relative !important
+     ;
+ }
 .newarrival{
   text-align: center !important;
 }
@@ -140,12 +152,50 @@ align-items: center;
 .footers-one{
   text-align: center !important;
 }
-
+    .logo-text{
+      font-size: 25px !important;
+     }
+     .logo-img{
+      height: 30px !important;
+      padding-top: 8px !important;
+     }
+     .nav-item{
+      font-size: 12px !important;
+    }
+    .amazon{
+      flex-direction: column !important;
+    }
+    .girls{
+      height: 350px;
+    }
+    .girls-arr{
+      padding-top: 30px;
+    }
+    .new-arr2{
+      font-size: 34px !important;
+    }
+    .down-txt{
+      font-size: 10px !important;
+    }
+    .apple{
+      height: 40px;
+    }
+    .phone{
+      display: none;
+    }
 }
 
 
 
 @media screen and (min-width: 481px) and (max-width:600px){
+  
+  .blend-img{
+    width: 117px !important;
+    height: 117px !important;
+  }
+  .amazon{
+    flex-direction: column !important;
+  }
   .girl1banner{
     display: none;
   }
@@ -156,28 +206,36 @@ align-items: center;
     width: 300px !important;
   }
   .banner-text {
-    font-weight: 700 !important;
-    font-size: 4rem !important;
+    font-weight: 600 !important;
+    font-size: 2.75rem !important;
   }
   .live-txt{
-    font-size: 16px !important;
+    font-size: 12px !important;
     padding-top: 1rem !important;
   }
   .shp-btn{
-    width: 90px !important;
-    height: 45px !important;
-    font-size: 12px !important;
+    width: 80px !important;
+    height: 35px !important;
+    font-size: 10px !important;
+    margin-left: 20px !important;
   }
   .leaff{
-    height: 25px !important;
+    height: 20px !important;
   }
   .ylwbtn{
     padding-top: 1rem;
     padding-left: 1rem;
   }
   .banner2 {
-    position: relative !important;
+   top: 0 !important;
+   left: 0 !important;
     color: black;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important
+    ;
 }
 .newarrival{
   text-align: center !important;
@@ -216,45 +274,8 @@ align-items: center;
   .etext{
 font-size: 17px !important;
 }
-.searchbox-wrap {
-  width: 400px !important;
-  padding-right: 200px !important;
-}
 
-.searchbox-wrap input {
-  flex: 1 1;
-  padding: 15px 10px !important;
-  font-size: 1.1em;
-  box-shadow: none;
-  border: none;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
-}
-.searchbox-wrap button span {
-margin-left: 0px !important;
-padding: 10px 15px !important;
-font-size: 0.9em;
-text-transform: uppercase;
-font-weight: 300;
-color: #fff;
-background-color: black;
-border-radius: 8px;
-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
-}
 
-.searchbox-wrap button {
-padding-right: 3px !important;
-background-color: #fff;
-box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
-border: none;
-cursor: pointer;
-cursor: hand;
-}
-.searchbox-wrap {
-  display: flex;
-  width: 370px !important;
-  margin-left: auto;
-  margin-right: auto;
-}
 .footers .footers-three {
   padding-top: 30px !important;
 }
@@ -271,13 +292,50 @@ align-items: center;
 .footers-one{
   text-align: center !important;
 }
+.logo-text{
+  font-size: 25px !important;
+ }
+ .logo-img{
+  height: 30px !important;
+  padding-top: 8px !important;
+ }
+ .nav-item{
+  font-size: 12px !important;
+}
+.navbar-toggler{
+  margin-right: 20px !important;
+  height: 35px !important;
+}
+.girls{
+  height: 400px;
+}
+.girls-arr{
+  padding-top: 30px;
+}
+.new-arr2{
+  font-size: 36px !important;
+}
+.down-txt{
+  font-size: 13px !important;
+}
+.apple{
+  height: 43px;
+}
+.phone{
+  display: none;
+}
+.searchbox-wrap{
+  width: 400px !important;
+  height: 80px !important;
+
+}
 
 }
 
 
 
 
-@media screen and (min-width: 600px) and (max-width:768px){
+@media screen and (min-width: 601px) and (max-width:768px){
   .lets-txt{
     width: 175px !important;
   }
@@ -285,8 +343,8 @@ align-items: center;
     width: 175px !important;
   }
   .banner-text {
-    font-weight: 550 !important;
-    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    font-size: 1.55rem !important;
   }
   .live-txt{
     font-size: 8px !important;
@@ -294,11 +352,13 @@ align-items: center;
   }
   .shp-btn{
     width: 70px !important;
-    height: 25px !important;
+    height: 20px !important;
     font-size: 8px !important;
+    border-radius: 5px !important;
+    margin-left: 20px !important;
   }
   .leaff{
-    height: 15px !important;
+    height: 10px !important;
   }
   .newarrival{
     text-align: center !important;
@@ -363,11 +423,61 @@ align-items: center;
     .footers-one{
       text-align: center !important;
     }
+    .logo-text{
+      font-size: 25px !important;
+     }
+     .logo-img{
+      height: 30px !important;
+      padding-top: 8px !important;
+     }
+     .nav-item{
+      font-size: 12px !important;
+    }
+    .banner2{
+      top: 20px !important;
+      left: 50px !important;
+    } 
+    .girls{
+      height: 450px;
+    }
+    .girls-arr{
+      padding-top: 30px;
+    }
+    .new-arr2{
+      font-size: 38px !important;
+    }
+    .down-txt{
+      font-size: 15px !important;
+    }
+    .apple{
+      height: 45px;
+    }
+    .phone{
+      display: none;
+    }
+    .searchbox-wrap{
+      width: 450px !important;
+      height: 80px !important;
+    }
+    
 }
 
 
 
 @media screen and (min-width: 768px) and (max-width:990px){
+  .f-body2{
+    font-size: 1rem !important;
+  }
+  .f-body{
+    font-size: 0.9rem !important;
+  }
+  .f-head{
+    font-size: 2rem !important;
+  }
+  .banner2{
+    top: 35px !important;
+    left: 54px !important;
+  }
 .lets-txt{
   width: 250px !important;
 }
@@ -387,8 +497,10 @@ text-align: center;
 }
 .shp-btn{
   width: 80px !important;
-  height: 35px !important;
+  height: 25px !important;
   font-size: 10px !important;
+  border-radius: 5px !important;
+  margin-left: 15px;
 }
 .leaff{
   height: 20px !important;
@@ -430,9 +542,7 @@ padding-top: 1rem !important;
 .down-txt{
   text-align: center;
 }
-.phone{
-  padding-left: 150px !important;
-}
+
 .join{
   font-size: 45px !important;
 }
@@ -441,6 +551,40 @@ font-size: 18px !important;
 }
 .searchbox-wrap {
   width: 400px !important;
+}
+.logo-text{
+  font-size: 30px !important;
+ }
+.nav-item{
+  font-size: 16px !important;
+}
+.leaff{
+  height: 15px !important;
+}
+.girls{
+  height: 500px;
+}
+.girls-arr{
+  padding-top: 30px;
+}
+.younggirls{
+  height: 400px !important;
+}
+.new-arr2{
+  font-size: 43px !important;
+}
+.down-txt{
+  font-size: 20px !important;
+}
+.apple{
+  height: 50px;
+}
+.phone{
+  display: none;
+}
+.searchbox-wrap{
+  width: 450px !important;
+  height: 80px !important;
 }
 
 }
@@ -465,7 +609,8 @@ font-size: 18px !important;
   }
  .shp-btn{
     width: 100px !important;
-    height: 55px !important;
+    height: 45px !important;
+    font-size: 14px !important;
   }
   .shp-btn2{
     width: 120px !important;
@@ -488,6 +633,40 @@ font-size: 18px !important;
   font-size: 14px !important;
   padding-top: 1rem !important;
 }
+.logo-text{
+  font-size: 30px !important;
+ }
+ .logo-text{
+  font-size: 30px !important;
+ }
+ .leaff{
+  height: 22px;
+}
+.new-arr{
+  font-weight: 775 !important;
+    font-size: 45px !important;
+    text-align: center;
+}
+.new-arr2{
+  font-size: 43px !important;
+}
+.down-txt{
+  font-size: 20px !important;
+}
+.apple{
+  height: 50px;
+}
+.join{
+  font-size: 50px !important;
+}
+.etext{
+  font-size: 24px !important;
+}
+.searchbox-wrap{
+  width: 450px !important;
+  height: 80px !important;
+}
+
 }
 
 
@@ -498,6 +677,7 @@ font-size: 18px !important;
   .shp-btn{
     width: 110px !important;
     height: 40px !important;
+    font-size: 16px !important;
   }
   .lets-txt{
     width: 375px !important;
@@ -533,6 +713,30 @@ font-size: 18px !important;
 .para-txt{
   font-size: 15px !important;
   padding-top: 1rem !important;
+}
+.logo-text{
+ font-size: 30px !important;
+}
+.leaff{
+  height: 25px;
+}
+.new-arr2{
+  font-size: 43px !important;
+}
+.down-txt{
+  font-size: 20px !important;
+}
+.apple{
+  height: 50px;
+}
+.join{
+  font-size: 50px !important;
+}
+.etext{
+  font-size: 24px !important;
+}
+.searchbox-wrap{
+  width: 480px !important;
 }
 }
 
@@ -574,5 +778,14 @@ font-size: 18px !important;
 .banner2-text{
   font-weight: 800 !important;
   font-size: 4rem !important;
+}
+.join{
+  font-size: 50px !important;
+}
+.etext{
+  font-size: 24px !important;
+}
+.searchbox-wrap{
+  width: 480px !important;
 }
 }

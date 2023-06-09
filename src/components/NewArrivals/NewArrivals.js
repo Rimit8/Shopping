@@ -17,7 +17,7 @@ const NewArrivals = () => {
             </p>
           </div>
 
-              <div className="col-lg-4 px-4">
+              <div className="col-lg-4 px-4 girls-arr">
                 <img src={girl1} alt="girl1" className="girls img-fluid" />
                 <div className="text-start newarrival">
                   <h5 className="girlone pt-4">Hoodies and Sweetshirt</h5>

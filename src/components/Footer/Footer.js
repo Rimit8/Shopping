@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="row footer-sec">
             <div className="col-xs-12 col-sm-6 col-md-4 footers-one">
               <div className="footers-logo ">
-                <h1 className="footers-logo2">FASHION</h1>
+                <h1 className="footers-logo2 f-head">FASHION</h1>
               </div>
-              <div className="footers-info pt-3 ">
+              <div className="footers-info pt-3 f-body">
                 <p>Complete your style with awesome<br/> clothes from us.</p>
               </div>
               <div className="social-icons  pt-3">
@@ -42,48 +42,48 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-2 footers-two"></div>
-            <div className="col-xs-12 col-sm-6 col-md-2 footers-three">
-              <h5>Company</h5>
+            <div className="col-xs-12 col-sm-6 col-md-2 footers-three ">
+              <h5 className="f-body2">Company</h5>
               <ul className="list-unstyled">
                 <li className="pt-2">
-                  <a href="/">About</a>
+                  <a href="/" className="f-body">About</a>
                 </li>
                 <li className="pt-2">
-                  <a href="/">Contact us</a>
+                  <a href="/" className="f-body">Contact us</a>
                 </li>
                 <li className="pt-2">
-                  <a href="/">Support</a>
+                  <a href="/" className="f-body">Support</a>
                 </li>
                 <li className="pt-2">
-                  <a href="/">Careers</a>
+                  <a href="/" className="f-body">Careers</a>
                 </li>
               </ul>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-2 footers-four">
-              <h5>Quick Link</h5>
+              <h5 className="f-body2">Quick Link</h5>
               <ul className="list-unstyled">
                 <li className="pt-2">
-                  <a href="/">Share Location</a>
+                  <a href="/" className="f-body">Share Location</a>
                 </li>
                 <li className="pt-2">
-                  <a href="/">Orders Tracking</a>
+                  <a href="/" className="f-body">Orders Tracking</a>
                 </li>
                 <li className="pt-2">
-                  <a href="/">Size Guide</a>
+                  <a href="/" className="f-body">Size Guide</a>
                 </li>
                 <li className="pt-2">
-                  <a href="/">FAQs</a>
+                  <a href="/" className="f-body">FAQs</a>
                 </li>
               </ul>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-2 footers-five">
-              <h5>Legal </h5>
+              <h5 className="f-body2">Legal </h5>
               <ul className="list-unstyled">
                 <li className="pt-2">
-                  <a href="/">Terms & conditions</a>
+                  <a href="/" className="f-body">Terms & conditions</a>
                 </li>
                 <li className="pt-2">
-                  <a href="/">Privacy Policy</a>
+                  <a href="/" className="f-body">Privacy Policy</a>
                 </li>
               </ul>
             </div>

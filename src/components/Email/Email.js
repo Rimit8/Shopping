@@ -16,7 +16,7 @@ const Email = () => {
             </p>
             <div class="searchbox-wrap pt-3">
               <input type="text" placeholder="Add your email here" />
-              <button>
+              <button className="e-btn">
                 <span>Send</span>{" "}
               </button>
             </div>

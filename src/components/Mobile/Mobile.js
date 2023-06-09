@@ -18,15 +18,15 @@ const Mobile = () => {
               Get 30% off for first transaction using
               <br/>Rondovision mobile app for now.
             </p>
-            <div className="pt-5 px-1 phone">
-            <img src={apple} alt='apple' className="img-fluid"/>
-            <img src={play} alt='apple' className="img-fluid "/>
+            <div className="pt-5 px-1 ">
+            <img src={apple} alt='apple' className="img-fluid apple"/>
+            <img src={play} alt='apple' className="img-fluid apple"/>
 
             </div>
           </div>
           </div>
           <div className="col-lg-6 ">
-            <img src={mobile} alt="mob" className="img-fluid"/>
+            <img src={mobile} alt="mob" className="img-fluid phone"/>
           </div>
 </div>
 

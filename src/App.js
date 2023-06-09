@@ -16,12 +16,12 @@ function App() {
       <Navbar/>
       <Banner1/>
        <YellowBanner/>
-<NewArrivals/>
- <Banner2/>
-               <Young/>
-  <Mobile/>
-          <Email/>
-       <Footer/>
+ <NewArrivals/>
+<Banner2/>
+            <Young/>
+    <Mobile/>
+   <Email/>
+               <Footer/>
     </div>
   );
 }

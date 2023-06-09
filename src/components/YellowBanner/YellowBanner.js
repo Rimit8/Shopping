@@ -9,34 +9,39 @@ import amazon from '../../assets/amazon.svg'
 
 const YellowBanner = () => {
   return (
-<>
 <div className='padd'>
-      <div className='brands'>
+<section className='brands'>
+
+      <div className='container brands'>
+    <div className='row'>
         <div className='align-items-center pt-5 pb-4'>
-            <div className='col-lg-12 d-flex amazon'>
+        
+            <div className='col-lg-12  amazon d-flex'>
+
                 <div className='col-lg-2 blend'>
-                <img src={hm} alt='hm' className='img-fluid'/>
+                <img src={hm} alt='hm' className='img-fluid blend-img'/>
                 </div>
                 <div className='col-lg-2 blend pt-2'>
-                <img src={obey} alt='hm' className='img-fluid'/>
+                <img src={obey} alt='hm' className='img-fluid blend-img'/>
                 </div>
                 <div className='col-lg-2 blend pt-2'>
-                <img src={shopify} alt='hm' className='img-fluid'/>
+                <img src={shopify} alt='hm' className='img-fluid blend-img'/>
                 </div>
                 <div className='col-lg-2 blend '>
-                <img src={lacoste} alt='hm' className='img-fluid'/>
+                <img src={lacoste} alt='hm' className='img-fluid blend-img'/>
                 </div>
                 <div className='col-lg-2 blend pt-2'>
-                <img src={levis} alt='hm' className='img-fluid'/>
+                <img src={levis} alt='hm' className='img-fluid blend-img'/>
                 </div>
                 <div className='col-lg-2 blend pt-3'>
-                <img src={amazon} alt='hm' className='img-fluid'/>
+                <img src={amazon} alt='hm' className='img-fluid blend-img'/>
                 </div>
             </div>
-        </div>
       </div>
-    </div>
-</>
+      </div>
+      </div>
+    </section>
+</div>
   )
 }
 

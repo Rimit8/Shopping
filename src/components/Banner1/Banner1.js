@@ -13,7 +13,8 @@ const Banner1 = () => {
     <div>
       <div className="container mt-4">
         <img src={banner1} alt="banner1" className="img-fluid girl1banner"/>
-        <div className="banner2 pt-4 px-5">
+      
+        <div className="banner2 ">
         <div className="big-txt">
           <h1 className="banner-text text-start lets-txt">LET'S </h1>
 

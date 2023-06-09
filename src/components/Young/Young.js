@@ -16,16 +16,16 @@ const Young = () => {
             </p>
           </div>
 
-              <div className="col-lg-6 px-3">
+              <div className="col-lg-6 px-3 girls-arr">
                 <img src={girl4} alt="girl1" className="younggirls img-fluid" />
-                <div className="text-start">
+                <div className="text-start newarrival">
                   <h5 className="girlone pt-4">Hoodies and Sweetshirt</h5>
                   <p className="girltwo">Explore Now!</p>
                 </div>
               </div>
               <div className="col-lg-6 px-3">
                 <img src={girl5} alt="girl1" className="younggirls img-fluid" />
-                <div className="text-start">
+                <div className="text-start newarrival">
                   <h5 className="girlone pt-4">Hoodies and Sweetshirt</h5>
                   <p className="girltwo">Explore Now!</p>
                 </div>
